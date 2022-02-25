@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+3D&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+::-moz-selection {
+  background: #a90abf;
+}
+::selection {
+  background: #a90abf;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: #a90abf !important;
+  transform: 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  border-bottom: 1.5px solid #a90abf;
+  transform: 0.1s ease-in-out;
+}
+
+.nav-link:active {
+  border-bottom: 1px solid #a90abf;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+a:hover {
+  transform: 0.1s ease-in-out;
+}
